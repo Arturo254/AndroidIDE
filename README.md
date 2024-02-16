@@ -4,136 +4,113 @@
 
 <h2 align="center"><b>AndroidIDE</b></h2>
 <p align="center">
-  An IDE to develop real, Gradle-based Android applications on Android devices.
+  Un IDE para desarrollar aplicaciones Android reales basadas en Gradle en dispositivos Android.
 <p><br>
 
 <p align="center">
-<!-- Latest release -->
-<img src="https://img.shields.io/github/v/release/AndroidIDEOfficial/AndroidIDE?include_prereleases&amp;label=latest%20release" alt="Latest release">
-<!-- Build and test -->
-<img src="https://github.com/AndroidIDEOfficial/AndroidIDE/actions/workflows/build.yml/badge.svg" alt="Builds and tests">
+<!-- Última versión -->
+<img src="https://img.shields.io/github/v/release/AndroidIDEOfficial/AndroidIDE?include_prereleases&amp;label=última%20versión" alt="Última versión">
+<!-- Compilación y prueba -->
+<img src="https://github.com/AndroidIDEOfficial/AndroidIDE/actions/workflows/build.yml/badge.svg" alt="Compilaciones y pruebas">
 <!-- CodeFactor -->
 <img src="https://www.codefactor.io/repository/github/androidideofficial/androidide/badge/main" alt="CodeFactor">
 <!-- Crowdin -->
 <a href="https://crowdin.com/project/androidide"><img src="https://badges.crowdin.net/androidide/localized.svg" alt="Crowdin"></a>
-<!-- License -->
-<img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License"></p>
+<!-- Licencia -->
+<img src="https://img.shields.io/badge/Licencia-GPLv3-blue.svg" alt="Licencia"></p>
 
 <p align="center">
-  <a href="https://androidide.com/docs/">Explore the docs »</a> &nbsp; &nbsp;
-  <a href="https://androidide.com/blogs/">Read our blog »</a>
+  <a href="https://androidide.com/docs/">Explora la documentación »</a> &nbsp; &nbsp;
+  <a href="https://androidide.com/blogs/">Lee nuestro blog »</a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/AndroidIDEOfficial/AndroidIDE/issues/new?labels=bug&template=BUG.yml&title=%5BBug%5D%3A+">Report a bug</a> &nbsp; &#8226; &nbsp;
-  <a href="https://github.com/AndroidIDEOfficial/AndroidIDE/issues/new?labels=feature&template=FEATURE.yml&title=%5BFeature%5D%3A+">Request a feature</a> &nbsp; &#8226; &nbsp;
-  <a href="https://t.me/androidide_discussions">Join us on Telegram</a>
+  <a href="https://github.com/AndroidIDEOfficial/AndroidIDE/issues/new?labels=bug&template=BUG.yml&title=%5BBug%5D%3A+">Reporta un error</a> &nbsp; &#8226; &nbsp;
+  <a href="https://github.com/AndroidIDEOfficial/AndroidIDE/issues/new?labels=feature&template=FEATURE.yml&title=%5BFeature%5D%3A+">Solicita una característica</a> &nbsp; &#8226; &nbsp;
+  <a href="https://t.me/androidide_discussions">Únete a nosotros en Telegram</a>
 </p>
 
-> **We are looking for contributors/maintainers to help keep the project alive and speed up the development. You can help by fixing bugs, implementing & improving features, writing documentation, etc.**
+> **Estamos buscando colaboradores/mantenedores para ayudar a mantener vivo el proyecto y acelerar el desarrollo. Puedes ayudar corrigiendo errores, implementando y mejorando funciones, escribiendo documentación, etc.**
 
-## Features
+## Características
 
-- [x] Gradle support.
-- [x] `JDK 11` and `JDK 17` available for use.
-- [x] Terminal with necessary packages.
-- [x] Custom environment variables (for Build & Terminal).
-- [x] SDK Manager (Available via terminal).
-- [x] API information for classes and their members (since, removed, deprecated).
-- [x] Log reader (shows your app's logs in real-time)
-- [ ] Language servers
+- [x] Soporte para Gradle.
+- [x] `JDK 11` y `JDK 17` disponibles para su uso.
+- [x] Terminal con paquetes necesarios.
+- [x] Variables de entorno personalizadas (para Build & Terminal).
+- [x] SDK Manager (disponible a través del terminal).
+- [x] Información de API para clases y sus miembros (desde, eliminado, obsoleto).
+- [x] Lector de registros (muestra los registros de tu aplicación en tiempo real).
+- [ ] Servidores de lenguaje
     - [x] Java
     - [x] XML
     - [ ] Kotlin
-- [ ] UI Designer
-    - [x] Layout inflater
-    - [x] Resolve resource references
-    - [x] Auto-complete resource values when user edits attributes using the attribute editor
-    - [x] Drag & Drop
-    - [x] Visual attribute editor
-    - [x] Android Widgets
-- [ ] String Translator
-- [ ] Asset Studio (Drawable & Icon Maker)
+- [ ] Diseñador de interfaz de usuario
+    - [x] Inflador de diseño
+    - [x] Resolver referencias de recursos
+    - [x] Autocompletar valores de recursos cuando el usuario edita atributos mediante el editor de atributos
+    - [x] Arrastrar y soltar
+    - [x] Editor de atributos visual
+    - [x] Widgets de Android
+- [ ] Traductor de cadenas
+- [ ] Asset Studio (Creador de imágenes y iconos)
 - [x] Git
 
-## Installation
+## Instalación
 
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.svg"
-    alt="Get it on F-Droid"
+    alt="Obtener en F-Droid"
     height="80">](https://f-droid.org/packages/com.itsaky.androidide)
 [<img src="https://github.com/Kunzisoft/Github-badge/raw/main/get-it-on-github.svg"
-    alt="Get it on F-Droid"
+    alt="Obtener en GitHub"
     height="80">](https://github.com/AndroidIDEOfficial/AndroidIDE/releases)
 
-> _Please install AndroidIDE from trusted sources only i.e._
-> - [_The AndroidIDE website_](https://androidide.com)
-> - [_GitHub Releases_](https://github.com/AndroidIDEOfficial/AndroidIDE/releases)
-> - [_GitHub Actions_](https://github.com/AndroidIDEOfficial/AndroidIDE/actions?query=branch%3Adev+event%3Apush)
+> _Instala AndroidIDE solo desde fuentes confiables, es decir,_
+> - [_El sitio web de AndroidIDE_](https://androidide.netlify.app)
 > - [_F-Droid_](https://f-droid.org/packages/com.itsaky.androidide/)
 
-- Download the AndroidIDE APK from the mentioned trusted sources.
-- Follow the
-  instructions [here](https://docs.androidide.com/tutorials/get-started.html) to
-  install the build tools.
+- Descarga el APK de AndroidIDE desde las fuentes confiables mencionadas.
+- Sigue las
+  instrucciones [aquí](https://docs.androidide.com/tutorials/get-started.html) para
+  instalar las herramientas de compilación.
 
-## Limitations
+## Limitaciones
 
-- For working with projects in AndroidIDE, your project must use Android Gradle Plugin v7.2.0 or
-  newer. Projects with older AGP must be migrated to newer versions.
-- SDK Manager is already included in Android SDK and is accessible in AndroidIDE via its Terminal.
-  But, you cannot use it to install some tools (like NDK) because those tools are not built for
+- Para trabajar con proyectos en AndroidIDE, tu proyecto debe utilizar la versión 7.2.0 o
+  más reciente del Plugin de Gradle para Android. Los proyectos con versiones antiguas del AGP deben migrarse a versiones más recientes.
+- El SDK Manager ya está incluido en el SDK de Android y es accesible en AndroidIDE a través de su Terminal.
+  Sin embargo, no puedes usarlo para instalar algunas herramientas (como NDK) porque esas herramientas no están construidas para
   Android.
-- No official NDK support because we haven't built the NDK for Android.
+- No hay soporte oficial para NDK porque no hemos construido el NDK para Android.
 
-The app is still being developed actively. It's in beta stage and may not be stable. if you have any
-issues using the app, please let us know.
+La aplicación aún se encuentra en desarrollo activo. Está en fase beta y puede no ser estable. Si tienes algún
+problema usando la aplicación, avísanos.
 
-## Contributing
+## Contribuir
 
-See the [contributing guide](./CONTRIBUTING.md).
+Consulta la [guía de contribución](./CONTRIBUTING.md).
 
-For translations, visit the [Crowdin project page](https://crowdin.com/project/androidide).
+Para traducciones, visita la [página del proyecto en Crowdin](https://crowdin.com/project/androidide).
 
-## Thanks to
+## Agradecimientos a
 
-- [Rosemoe](https://github.com/Rosemoe) for the
-  awesome [CodeEditor](https://github.com/Rosemoe/sora-editor)
-- [Termux](https://github.com/termux) for [Terminal Emulator](https://github.com/termux/termux-app)
+- [Rosemoe](https://github.com/Rosemoe) por el
+  impresionante [CodeEditor](https://github.com/Rosemoe/sora-editor)
+- [Termux](https://github.com/termux) por el [Terminal Emulator](https://github.com/termux/termux-app)
 - [Bogdan Melnychuk](https://github.com/bmelnychuk)
-  for [AndroidTreeView](https://github.com/bmelnychuk/AndroidTreeView)
-- [George Fraser](https://github.com/georgewfraser) for
-  the [Java Language Server](https://github.com/georgewfraser/java-language-server)
+  por [AndroidTreeView](https://github.com/bmelnychuk/AndroidTreeView)
+- [George Fraser](https://github.com/georgewfraser) por
+  el [Java Language Server](https://github.com/georgewfraser/java-language-server)
 
-Thanks to all the developers who have contributed to this project.
+Gracias a todos los desarrolladores que han contribuido a este proyecto.
 
-<p>This project is supported by:</p>
+<p>Este proyecto cuenta con el apoyo de:</p>
 <p>
   <a href="https://m.do.co/c/54add371d1d7">
     <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/SVG/DO_Logo_horizontal_blue.svg" width="201px">
   </a>
 </p>
 
-## Contact Us
+## Contáctanos
 
-- [Website](https://m.androidide.com)
-- [Telegram](https://t.me/androidide_discussions)
-
-## License
-
-```
-AndroidIDE is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-AndroidIDE is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
-```
-
-Any violations to the license can be reported either by opening an issue or writing a mail to us
-directly.
+- [Sitio web](https://androidide.netlify.app/)
