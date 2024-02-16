@@ -17,16 +17,8 @@
 <!-- Licencia -->
 <img src="https://img.shields.io/badge/Licencia-GPLv3-blue.svg" alt="Licencia"></p>
 
-<p align="center">
-  <a href="https://androidide.com/docs/">Explora la documentación »</a> &nbsp; &nbsp;
-  <a href="https://androidide.com/blogs/">Lee nuestro blog »</a>
-</p>
 
-<p align="center">
-  <a href="https://github.com/AndroidIDEOfficial/AndroidIDE/issues/new?labels=bug&template=BUG.yml&title=%5BBug%5D%3A+">Reporta un error</a> &nbsp; &#8226; &nbsp;
-  <a href="https://github.com/AndroidIDEOfficial/AndroidIDE/issues/new?labels=feature&template=FEATURE.yml&title=%5BFeature%5D%3A+">Solicita una característica</a> &nbsp; &#8226; &nbsp;
-  <a href="https://t.me/androidide_discussions">Únete a nosotros en Telegram</a>
-</p>
+
 
 > **Estamos buscando colaboradores/mantenedores para ayudar a mantener vivo el proyecto y acelerar el desarrollo. Puedes ayudar corrigiendo errores, implementando y mejorando funciones, escribiendo documentación, etc.**
 
