@@ -51,9 +51,6 @@
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.svg"
     alt="Obtener en F-Droid"
     height="80">](https://f-droid.org/packages/com.itsaky.androidide)
-[<img src="https://github.com/Kunzisoft/Github-badge/raw/main/get-it-on-github.svg"
-    alt="Obtener en GitHub"
-    height="80">](https://github.com/AndroidIDEOfficial/AndroidIDE/releases)
 
 > _Instala AndroidIDE solo desde fuentes confiables, es decir,_
 > - [_El sitio web de AndroidIDE_](https://androidide.netlify.app)
