@@ -8,8 +8,6 @@
 <p><br>
 
 <p align="center">
-<!-- Última versión -->
-<img src="https://img.shields.io/github/v/release/AndroidIDEOfficial/AndroidIDE?include_prereleases&amp;label=última%20versión" alt="Última versión">
 <!-- Compilación y prueba -->
 <img src="https://github.com/AndroidIDEOfficial/AndroidIDE/actions/workflows/build.yml/badge.svg" alt="Compilaciones y pruebas">
 <!-- CodeFactor -->
